@@ -7,8 +7,11 @@
 // Hoera!
 // Hoera!
 // ==========================================
+console.log('   Oefening 1');
 
-
+for (let i = 0; i < 3; i++) {
+    console.log('Hoera!');
+}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
@@ -20,7 +23,14 @@
 // klaar!
  // ==========================================
 
+console.log('   Oefening 2');
 
+for (let i = 0; i < 4; i++) {
+    console.log('Loop...');
+}
+if (i = 5) {
+    console.log("Klaar!");
+}
 
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
@@ -35,7 +45,20 @@
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
 
+console.log('   Oefening 3');
 
+// input
+
+// output
+        // getal 16 x dupliceren
+for (let inCrease = 0; inCrease < 16; inCrease++) {
+        // uitkomst delen door 2 is even
+        if (inCrease % 2 === 0)
+            console.log(inCrease + " is een even nummer");
+        // uitkomst delen door 2 is oneven
+        if (inCrease % 2 !== 0)
+            console.log(inCrease + ' is een oneven nummer');
+        }
 
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -52,4 +75,24 @@
 // >> 8
 // >> 9
 // ==========================================
+
+console.log('   Oefening 4');
+
+// getal dupliceren
+for (let biggerThen = 0; biggerThen < 10; biggerThen++) {
+
+    // Tonen alleen getal
+    if (biggerThen < 3)
+        console.log(biggerThen);
+
+    // toevoegen > vanaf getal 3
+    if (biggerThen >= 3 && biggerThen < 6)
+    console.log('> ' + biggerThen);
+
+    // toevoegen >> vanaf getal 6
+    if (biggerThen >= 6 && biggerThen < 10)
+        console.log('>> ' + biggerThen);
+}
+
+
 
