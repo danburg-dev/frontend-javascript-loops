@@ -1,5 +1,5 @@
 // ==========================================
-// Opdracht 1
+// Opdracht 1 (Aangepast)
 // Schrijf een script dat iedere naam in bovenstaande array vervangt door een koosnaampje, door er -"je" achter te plakken.
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
@@ -12,7 +12,7 @@
 
 console.log('   Opdracht 1');
 
-const names = ["Henk", "Piet", "Fred", "Joop", "Pot"];
+const names = ["Henk", "Piet", "Fred", "Joop"];
 for(let i = 0; i < names.length; i++) {
     console.log(names[i] + "je");
 }
@@ -32,7 +32,7 @@ for(let i = 0; i < names.length; i++) {
 
 console.log('   Opdracht 2');
 
-const numbers = [2, 4, 5, 29, 38, 51];
+const numbers = [2, 4, 5, 29, 38];
 for(let i = 0; i < numbers.length; i++) {
     console.log(numbers[i] * 3);
 }
@@ -51,7 +51,7 @@ for(let i = 0; i < numbers.length; i++) {
 // console.log(numbers) geeft: [27000, 8, 512, 13824, 1331];
 
 console.log('   Opdracht 3');
-const squares = [30, 2, 8, 24, 11, 16];
+const squares = [30, 2, 8, 24, 11];
 
 for(let i = 0; i < squares.length; i++) {
     console.log(squares[i] * squares[i] * squares[i]);

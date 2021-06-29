@@ -1,4 +1,4 @@
-// Begin status code
+// Begin status code (aangepast)
 
 // ==========================================
 // Opdracht 1. Maak een for-loop die 3 keer "Hoera!" in de terminal logt
